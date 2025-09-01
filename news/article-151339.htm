@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://freeclash-node.github.io/news/article-151339.htm" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>深度解析：v2ray与SSR能否共存？优势盘点与按需选择指南</title>
+        <meta name="description" content="随着互联网的发展和网络审查机制的日益复杂，科学上网工具成为了许多用户日常必备的“隐形护盾”。在众多工具中，v2ray和SSR（ShadowsocksR）因其各自独特的功能和优势，成为了翻墙用户讨论的热" />
+        <link rel="icon" href="/assets/website/img/freestash/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="免费Clash节点 订阅中文网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://freeclash-node.github.io/news/article-151339.htm" />
+    <meta property="og:site_name" content="免费Clash节点 订阅中文网" />
+    <meta property="og:title" content="深度解析：v2ray与SSR能否共存？优势盘点与按需选择指南" />
+    <meta property="og:image" content="https://freeclash-node.github.io/uploads/20240908-2/124e41346442478e734cf703e45934ae.webp" />
+        <meta property="og:release_date" content="2025-09-01T21:44:15" />
+    <meta property="og:updated_time" content="2025-09-01T21:44:15" />
+        <meta property="og:description" content="随着互联网的发展和网络审查机制的日益复杂，科学上网工具成为了许多用户日常必备的“隐形护盾”。在众多工具中，v2ray和SSR（ShadowsocksR）因其各自独特的功能和优势，成为了翻墙用户讨论的热" />
+        
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="深度解析：v2ray与SSR能否共存？优势盘点与按需选择指南">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+    <!-- Web Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap Core CSS -->
+    <link href="/assets/website/css/freestash/bootstrap.min.css" rel="stylesheet">
+    <!-- Flaticon CSS -->
+    <link href="fonts/flaticon/flaticon.css" rel="stylesheet">
+    <!-- font-awesome CSS -->
+    <link href="/assets/website/css/freestash/font-awesome.min.css" rel="stylesheet">
+    <!-- Offcanvas CSS -->
+    <link href="/assets/website/css/freestash/hippo-off-canvas.css" rel="stylesheet">
+    <!-- animate CSS -->
+    <link href="/assets/website/css/freestash/animate.css" rel="stylesheet">
+    <!-- language CSS -->
+    <link href="/assets/website/css/freestash/language-select.css" rel="stylesheet">
+    <!-- owl.carousel CSS -->
+    <link href="owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+    <!-- magnific-popup -->
+    <link href="/assets/website/css/freestash/magnific-popup.css" rel="stylesheet">
+    <!-- Main menu -->
+    <link href="/assets/website/css/freestash/menu.css" rel="stylesheet">
+    <!-- Template Common Styles -->
+    <link href="/assets/website/css/freestash/template.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="/assets/website/css/freestash/style.css" rel="stylesheet">
+    <!-- Responsive CSS -->
+    <link href="/assets/website/css/freestash/responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/website/css/G.css" />
+    
+    <script src="/assets/website/js/frontend/freestash/vendor/modernizr-2.8.1.min.js"></script>
+    <!-- HTML5 Shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="/assets/website/js/frontend/freestash/vendor/html5shim.js"></script>
+            <script src="/assets/website/js/frontend/freestash/vendor/respond.min.js"></script>
+        <![endif]-->
+    
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9Z3ZEFSE14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9Z3ZEFSE14');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854" crossorigin="anonymous"></script>
+</head>
+
+<body id="page-top" data-page="detail">
+    <div id="st-container" class="st-container">
+        <div class="st-pusher">
+            <div class="st-content">
+                                <header class="header">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container mainnav">
+                            <div class="navbar-header">
+                                <a class="navbar-brand" href="/">
+                                                                <span class="logo">免费Clash节点</span>
+                                                                </a>
+                                <!-- offcanvas-trigger -->
+                                <button type="button" class="navbar-toggle collapsed pull-right visible-xs">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                            </div>
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                                                        <li><a href="/">首页</a></li>
+                                                                        <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                                                        <li><a href="/news/">新闻资讯</a></li>
+                                                                        <li><a href="/client.htm">客户端</a></li>
+                                                                    </ul>
+                            </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container -->
+                    </nav>
+                </header>
+                <section class="page-title-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="page-header-wrap">
+                                    <div class="page-header">
+                                        <h1>深度解析：v2ray与SSR能否共存？优势盘点与按需选择指南</h1>
+                                    </div>
+                                    <ol class="breadcrumb">
+                                        <li><a href="/">首页</a></li>
+                                        <li><a href="/news/">新闻资讯</a></li>
+                                        <li class="active">正文</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- services start -->
+                <section class="service-home section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9">
+                                                <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                <div class="xcblog-blog-detail xcblog-blog-detail-defined">
+                    
+<p data-start="34" data-end="248">随着互联网的发展和网络审查机制的日益复杂，科学上网工具成为了许多用户日常必备的“隐形护盾”。在众多工具中，v2ray和SSR（ShadowsocksR）因其各自独特的功能和优势，成为了翻墙用户讨论的热门话题。很多用户会疑惑：v2ray和SSR究竟能不能同时安装？两者有什么区别？该如何选择？本文将从基础介绍入手，深入分析两者的优势与不足，探讨它们是否可以并存运行，并给出实用的安装与使用建议，帮助你找到最适合自己的科学上网方案。</p>
+<hr data-start="250" data-end="253">
+<h2 data-start="255" data-end="272">v2ray与SSR的基本认识</h2>
+<h3 data-start="274" data-end="285">v2ray简介</h3>
+<p data-start="287" data-end="443">v2ray是一个功能强大、灵活多变的网络代理工具。它支持多种协议（如VMess、VLess、Shadowsocks等），通过模块化设计，使得用户可以根据实际需求自由配置传输方式、加密手段和路由规则，从而获得更好的隐私保护和抗封锁能力。v2ray在多样性和性能上都有突出表现，尤其适合技术爱好者和有定制需求的用户。</p>
+<h3 data-start="445" data-end="454">SSR简介</h3>
+<p data-start="456" data-end="615">SSR，即ShadowsocksR，是对经典科学上网工具Shadowsocks的升级版本。它加入了多种流量混淆技术，如协议混淆（protocol）、伪装混淆（obfs）等，进一步提高了隐蔽性和抗检测能力。相比原版Shadowsocks，SSR在应对严格网络环境时表现更为稳定。它以简洁和实用著称，受到了很多用户的喜爱。</p>
+<hr data-start="617" data-end="620">
+<h2 data-start="622" data-end="640">v2ray与SSR的优势与不足</h2>
+<h3 data-start="642" data-end="654">v2ray的优势</h3>
+<ul data-start="656" data-end="871">
+<li data-start="656" data-end="726">
+<p data-start="658" data-end="726"><strong data-start="658" data-end="667">多协议支持</strong><br data-start="667" data-end="670">
+v2ray支持包括VMess、VLess、Shadowsocks等多种协议，能够灵活应对各种网络环境和需求。</p>
+</li>
+<li data-start="728" data-end="807">
+<p data-start="730" data-end="807"><strong data-start="730" data-end="739">高可扩展性</strong><br data-start="739" data-end="742">
+其模块化架构使得用户可以自由配置传输方式（如TCP、mKCP、WebSocket）、加密算法及路由策略，满足多样化的应用场景。</p>
+</li>
+<li data-start="809" data-end="871">
+<p data-start="811" data-end="871"><strong data-start="811" data-end="825">强大的社区和文档支持</strong><br data-start="825" data-end="828">
+作为开源项目，v2ray拥有活跃的社区，文档丰富，更新及时，帮助用户快速解决问题。</p>
+</li>
+</ul>
+<h3 data-start="873" data-end="885">v2ray的不足</h3>
+<ul data-start="887" data-end="991">
+<li data-start="887" data-end="934">
+<p data-start="889" data-end="934"><strong data-start="889" data-end="900">学习曲线较陡峭</strong><br data-start="900" data-end="903">
+由于配置灵活且复杂，初学者可能需要花费较多时间学习和调试。</p>
+</li>
+<li data-start="936" data-end="991">
+<p data-start="938" data-end="991"><strong data-start="938" data-end="950">资源占用相对较高</strong><br data-start="950" data-end="953">
+对于硬件性能较弱的设备，v2ray的运行可能带来一定的内存和CPU负担。</p>
+</li>
+</ul>
+<hr data-start="993" data-end="996">
+<h3 data-start="998" data-end="1008">SSR的优势</h3>
+<ul data-start="1010" data-end="1150">
+<li data-start="1010" data-end="1065">
+<p data-start="1012" data-end="1065"><strong data-start="1012" data-end="1027">高度隐蔽与抗干扰能力强</strong><br data-start="1027" data-end="1030">
+多种混淆技术使得SSR在网络封锁严苛的地区也能保持相对稳定的连接。</p>
+</li>
+<li data-start="1067" data-end="1113">
+<p data-start="1069" data-end="1113"><strong data-start="1069" data-end="1077">易于上手</strong><br data-start="1077" data-end="1080">
+配置和使用较为简单，拥有大量图文视频教程，新手快速入门无压力。</p>
+</li>
+<li data-start="1115" data-end="1150">
+<p data-start="1117" data-end="1150"><strong data-start="1117" data-end="1127">资源占用较低</strong><br data-start="1127" data-end="1130">
+SSR相对轻量，适合性能一般的设备。</p>
+</li>
+</ul>
+<h3 data-start="1152" data-end="1162">SSR的不足</h3>
+<ul data-start="1164" data-end="1259">
+<li data-start="1164" data-end="1202">
+<p data-start="1166" data-end="1202"><strong data-start="1166" data-end="1176">功能较为单一</strong><br data-start="1176" data-end="1179">
+不如v2ray灵活，扩展性和协议支持有限。</p>
+</li>
+<li data-start="1204" data-end="1259">
+<p data-start="1206" data-end="1259"><strong data-start="1206" data-end="1224">在极端封锁环境下可能表现不佳</strong><br data-start="1224" data-end="1227">
+某些地区的防火墙对SSR流量识别越来越精准，影响连接稳定性。</p>
+</li>
+</ul>
+<hr data-start="1261" data-end="1264">
+<h2 data-start="1266" data-end="1286">v2ray和SSR可以同时安装吗？</h2>
+<p data-start="1288" data-end="1352">从技术角度来看，v2ray和SSR是两款独立的代理软件，它们的进程、配置和网络接口彼此隔离，因此完全可以在同一台设备上共存运行。</p>
+<h3 data-start="1354" data-end="1365">同时安装的优点</h3>
+<ul data-start="1367" data-end="1484">
+<li data-start="1367" data-end="1431">
+<p data-start="1369" data-end="1431"><strong data-start="1369" data-end="1386">灵活选择不同场景的代理工具</strong><br data-start="1386" data-end="1389">
+你可以根据网络环境或访问需求，切换使用v2ray或SSR，提升连接成功率和速度。</p>
+</li>
+<li data-start="1433" data-end="1484">
+<p data-start="1435" data-end="1484"><strong data-start="1435" data-end="1446">容错和备选方案</strong><br data-start="1446" data-end="1449">
+当一个工具遇到连接问题时，另一个工具可以作为备选，保证上网不中断。</p>
+</li>
+</ul>
+<h3 data-start="1486" data-end="1497">需要注意的问题</h3>
+<ul data-start="1499" data-end="1682">
+<li data-start="1499" data-end="1554">
+<p data-start="1501" data-end="1554"><strong data-start="1501" data-end="1509">资源占用</strong><br data-start="1509" data-end="1512">
+同时运行两个代理软件会增加系统资源消耗，尤其是CPU和内存，对设备性能要求较高。</p>
+</li>
+<li data-start="1556" data-end="1631">
+<p data-start="1558" data-end="1631"><strong data-start="1558" data-end="1571">端口冲突与路由配置</strong><br data-start="1571" data-end="1574">
+两者需要配置不同的监听端口，避免因端口冲突导致连接失败。同时，两者的路由规则需要合理设计，避免数据流重复代理。</p>
+</li>
+<li data-start="1633" data-end="1682">
+<p data-start="1635" data-end="1682"><strong data-start="1635" data-end="1646">使用目的的明确</strong><br data-start="1646" data-end="1649">
+若只是单纯为了翻墙，选用其中一个稳定的工具即可，避免资源浪费。</p>
+</li>
+</ul>
+<hr data-start="1684" data-end="1687">
+<h2 data-start="1689" data-end="1711">如何同时安装和配置v2ray与SSR？</h2>
+<h3 data-start="1713" data-end="1725">1. 下载客户端</h3>
+<ul data-start="1727" data-end="1807">
+<li data-start="1727" data-end="1771">
+<p data-start="1729" data-end="1771"><strong data-start="1729" data-end="1738">v2ray</strong>：访问官方GitHub或信赖的第三方站点下载相应平台的客户端版本。</p>
+</li>
+<li data-start="1772" data-end="1807">
+<p data-start="1774" data-end="1807"><strong data-start="1774" data-end="1781">SSR</strong>：通过相关开源社区或服务商提供的客户端获取最新版本。</p>
+</li>
+</ul>
+<h3 data-start="1809" data-end="1821">2. 安装和启动</h3>
+<ul data-start="1823" data-end="1854">
+<li data-start="1823" data-end="1836">
+<p data-start="1825" data-end="1836">解压或安装下载的程序。</p>
+</li>
+<li data-start="1837" data-end="1854">
+<p data-start="1839" data-end="1854">按照官方说明启动各自的客户端。</p>
+</li>
+</ul>
+<h3 data-start="1856" data-end="1869">3. 配置文件管理</h3>
+<ul data-start="1871" data-end="1978">
+<li data-start="1871" data-end="1932">
+<p data-start="1873" data-end="1932">编辑v2ray和SSR各自的配置文件，确保两者监听端口不同（例如v2ray使用1080端口，SSR使用1081端口）。</p>
+</li>
+<li data-start="1933" data-end="1967">
+<p data-start="1935" data-end="1967">配置路由规则时，注意合理划分代理流量，避免两者重复代理同一流量。</p>
+</li>
+<li data-start="1968" data-end="1978">
+<p data-start="1970" data-end="1978">保存并启动配置。</p>
+</li>
+</ul>
+<h3 data-start="1980" data-end="1994">4. 启动服务并测试</h3>
+<ul data-start="1996" data-end="2052">
+<li data-start="1996" data-end="2016">
+<p data-start="1998" data-end="2016">启动两个客户端，观察是否能正常连接。</p>
+</li>
+<li data-start="2017" data-end="2052">
+<p data-start="2019" data-end="2052">使用网络工具检测代理效果，如访问被限制网站，检查访问速度与稳定性。</p>
+</li>
+</ul>
+<hr data-start="2054" data-end="2057">
+<h2 data-start="2059" data-end="2068">常见问题解答</h2>
+<h3 data-start="2070" data-end="2093">Q1：v2ray和SSR会互相冲突吗？</h3>
+<p data-start="2095" data-end="2125">不会。它们是独立运行的服务，只要端口配置合理，不会产生冲突。</p>
+<h3 data-start="2127" data-end="2147">Q2：同时运行会影响网络速度吗？</h3>
+<p data-start="2149" data-end="2181">可能会稍微增加带宽和资源使用，但如果设备性能充足，影响微乎其微。</p>
+<h3 data-start="2183" data-end="2198">Q3：哪种工具更安全？</h3>
+<p data-start="2200" data-end="2247">两者均有加密和混淆技术保障安全。v2ray的协议更丰富，提供更多隐私保护选项，安全性略胜一筹。</p>
+<h3 data-start="2249" data-end="2274">Q4：我可以用同一配置同时使用两个工具吗？</h3>
+<p data-start="2276" data-end="2307">不建议。两者配置文件格式和协议不同，应分别配置并根据需求使用。</p>
+<hr data-start="2309" data-end="2312">
+<h2 data-start="2314" data-end="2327">总结：如何按需选择？</h2>
+<p data-start="2329" data-end="2418">v2ray和SSR各有千秋，同时安装能带来更灵活的选择空间。但这并不意味着必须双管齐下。若你希望简单稳定，SSR易用且低资源占用；若你追求高性能和可定制性，v2ray是更佳选择。</p>
+<p data-start="2420" data-end="2490">建议新手先从SSR入门，逐渐熟悉网络代理后再尝试v2ray。高级用户可以两者结合，针对不同网络环境和访问需求灵活切换，以获得最佳的上网体验。</p>
+<hr data-start="2492" data-end="2495">
+<h2 data-start="2497" data-end="2504">精彩点评</h2>
+<p data-start="2506" data-end="2741" data-is-last-node="" data-is-only-node="">这篇文章逻辑清晰，条理分明，以用户的实际需求为出发点，深入浅出地剖析了v2ray与SSR两款科学上网工具的核心区别和优势。文中不仅涵盖了基础介绍和技术原理，还细致讲解了安装和配置的关键步骤，帮助不同层次的用户轻松掌握。最为难得的是，作者没有一味推荐单一工具，而是引导读者根据自身环境和需求理性选择，体现了极高的专业性和用户关怀。语言风格亲切流畅，技术细节丰富且不过于晦涩，非常适合广大网络爱好者和技术新手阅读。总体来看，是一篇难得的科学上网工具使用指南，值得收藏与分享。</p>                </div>
+                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                    </div>
+                                            </div>
+                            <div class="col-md-3">
+                                <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-151339.htm" title="深度解析：v2ray与SSR能否共存？优势盘点与按需选择指南">深度解析：v2ray与SSR能否共存？优势盘点与按需选择指南</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">1</span> <a href="/date/2025-09/" title="2025-09 归档">2025-09</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+                            </div>
+                        </div> <!-- /.row -->
+                    </div><!-- /.container -->
+                </section>
+                <!-- services end -->
+                <!-- copyright-section start -->
+                <footer class="copyright-section">
+                    <div class="container text-center">
+                        <div class="copyright-info">
+                            <a href="/">免费Clash节点 订阅中文网</a> 版权所有 Powered by WordPress
+                        </div>
+                    </div><!-- /.container -->
+                </footer>
+                <!-- copyright-section end -->
+            </div> <!-- .st-content -->
+        </div> <!-- .st-pusher -->
+                <!-- OFF CANVAS MENU -->
+        <div class="offcanvas-menu offcanvas-effect">
+            <div class="offcanvas-wrap">
+                <div class="off-canvas-header">
+                    <button type="button" class="close" aria-hidden="true" data-toggle="offcanvas" id="off-canvas-close-btn">&times;</button>
+                </div>
+                <ul id="offcanvasMenu" class="list-unstyled visible-xs visible-sm">
+                                        <li><a href="/">首页</a></li>
+                                        <li><a href="/paid-subscribe/">推荐机场</a></li>
+                                        <li><a href="/news/">新闻资讯</a></li>
+                                        <li><a href="/client.htm">客户端</a></li>
+                                        <li><a href="#">关于</a></li>
+                    <li><a href="#">联系</a></li>
+                </ul>
+            </div>
+        </div><!-- .offcanvas-menu -->
+    </div><!-- /st-container -->
+        <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="/assets/website/js/frontend/freestash/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/assets/website/js/frontend/freestash/bootstrap.min.js"></script>
+    <!-- owl.carousel -->
+    <script src="/assets/website/js/frontend/freestash/owl.carousel/owl.carousel.min.js"></script>
+    <!-- Magnific-popup -->
+    <script src="/assets/website/js/frontend/freestash/jquery.magnific-popup.min.js"></script>
+    <!-- Offcanvas Menu -->
+    <script src="/assets/website/js/frontend/freestash/hippo-offcanvas.js"></script>
+    <!-- inview -->
+    <script src="/assets/website/js/frontend/freestash/jquery.inview.min.js"></script>
+    <!-- stellar -->
+    <script src="/assets/website/js/frontend/freestash/jquery.stellar.js"></script>
+    <!-- countTo -->
+    <script src="/assets/website/js/frontend/freestash/jquery.countTo.js"></script>
+    <!-- classie -->
+    <script src="/assets/website/js/frontend/freestash/classie.js"></script>
+    <!-- selectFx -->
+    <script src="/assets/website/js/frontend/freestash/selectFx.js"></script>
+    <!-- sticky kit -->
+    <script src="/assets/website/js/frontend/freestash/jquery.sticky-kit.min.js"></script>
+    <!--TWITTER FETCHER-->
+    <script src="/assets/website/js/frontend/freestash/twitterFetcher_min.js"></script>
+    <!-- Custom Script -->
+    <script src="/assets/website/js/frontend/freestash/scripts.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script><script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
